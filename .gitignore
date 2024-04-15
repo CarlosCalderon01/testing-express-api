@@ -1,0 +1,5 @@
+# ignorar carpetas
+node_modules/
+Temp/
+
+# ignorar archivos

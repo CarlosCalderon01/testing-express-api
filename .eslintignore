@@ -1,0 +1,12 @@
+# carpetas
+node_modules/
+build/
+
+# archivos especificos
+*.config.js
+.eslintrc.js
+.gitignore
+notes.txt
+package-lock.json
+package.json
+readme.md

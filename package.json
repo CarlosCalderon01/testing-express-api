@@ -1,0 +1,44 @@
+{
+  "name": "talkingwithmeapi",
+  "version": "1.0.0",
+  "description": "with the objetive to learn more leguange we need create a new API for manage vocabulary for the future. also we use another languege and maxime api use community for create and update vocabulary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "lint:fix": "eslint --fix .",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosCalderon01/TaskWithMeAPI.git"
+  },
+  "keywords": [
+    "language",
+    "vocabulary",
+    "learn",
+    "biLanguage"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarlosCalderon01/TaskWithMeAPI/issues"
+  },
+  "homepage": "https://github.com/CarlosCalderon01/TaskWithMeAPI#readme",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.1",
+    "sequelize-cli": "^6.6.2"
+  }
+}

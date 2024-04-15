@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "TestTaskdbdevelopment",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "TestTaskdbtest",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "12345",
+    "database": "TestTaskdbproduction",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
