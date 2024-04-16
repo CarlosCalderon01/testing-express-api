@@ -1,58 +1,49 @@
 
-# INSTRUCCIONES
+# SUMMMARY
 
-- git init
-
-# COMMANDS LIST
-
-- npm init --yes
-- npm install [package]
-- npm uninstall [package]
-- npm update [package]
-- npm install --save-dev [package]
-- npm install --save--production [package]
-
-- PROJECT:
-    - npm list
-
-- ESLINT:
-    - npm install --save-dev eslint
-    - npx eslint --init
-    - npx eslint .
-    - npx eslint . --fix
-
-- EXPRESS:
-    - npm install --save--production express (NOTE: Framework)
-
-- NODEMON:
-    - npm install --save-dev nodemon
-
-- SEQUELIZE (ORM)
-    - npm install --save--production sequelize (NOTE: ORM)
-    - npm install --save--production sequelize-cli (NOTE: Tools For ORM)
-    - npm install --save pg pg-hstore (NOTE: Controller)
-    - sequelize init
-
-    - npm install -g sequelize-cli (Recomiendo instalacion global)
-    - npm install mysql2 (agregar al excel)
-
-- How to make a model?
+- what is Testing-Express-API:
     
-    - npx sequelize-cli model:generate --name nameTable --attributes nickName:STRING,email:STRING,birthdate:DATE,password:TEXT
+    - "Testing-Express-API" is a project for learn and practice Express use javascript and others features for example middleware and ORM(Sequelize).
 
-- HOW TO MAKE MIGRATE MODELS TO DB:
+    - This project have a objetive to make a API for manage task, also you can create account and ac
 
-    - npx sequelize-cli migration:generate --name ModelGmtGenderV01 // NOTE FOR DEV: GENERATE TABLE SPECIFIC
+# General objective
 
-    - npx sequelize-cli db:migrate:status // NOTE FOR DEV: GENERATE TABLE SPECIFIC
+- Create a api for learn Express.
 
-    - npx sequelize-cli db:migrate // NOTE FOR DEV: MIGRATE ALL DB
+# specific objective
 
-    - npx sequelize-cli db:migrate --config src\config\config.json (ReConfig path for migrate)
+- Create a crud for manage All entitys [ task, project, accounts ]
 
-    - db:migrate:undo ()
+- Create a middleware for login accounts.
 
+# Notes By Develoment
 
-# Manual
+- for create a models
 
-# BiBliografia
+# Agradecimientos:
+
+- Thanks to JJean-Marc Möckel for the creation and explanation of the blog.
+
+# Reference:
+
+- [REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js By Jean-Marc Möckel](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
+
+# Bibliografia:
+
+- [Documentation ORM](https://sequelize.org/)
+
+- [Recommends Tools from Official Document](https://www.npmjs.com/package/sequelize-cli)
+
+- [Create Models](https://sequelize.org/docs/v6/core-concepts/model-basics/)
+
+- [Connect DataBase](https://sequelize.org/docs/v6/getting-started/#connecting-to-a-database)
+
+- [REST API Design Best Practices Handbook – How to Build a REST API with JavaScript, Node.js, and Express.js By Jean-Marc Möckel](https://www.freecodecamp.org/news/rest-api-design-best-practices-build-a-rest-api/)
+
+- []()
+
+- []()
+
+- []()
+

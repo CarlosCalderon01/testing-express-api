@@ -1,7 +1,7 @@
 {
-  "name": "talkingwithmeapi",
+  "name": "testing-express-api",
   "version": "1.0.0",
-  "description": "with the objetive to learn more leguange we need create a new API for manage vocabulary for the future. also we use another languege and maxime api use community for create and update vocabulary",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,20 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CarlosCalderon01/TaskWithMeAPI.git"
+    "url": "git+https://github.com/CarlosCalderon01/Testing-Express-API.git"
   },
   "keywords": [
-    "language",
-    "vocabulary",
+    "Express",
+    "Sequelize",
     "learn",
-    "biLanguage"
+    "PostgreSQL"
   ],
-  "author": "me",
+  "author": "Carlos Alberto Calderon Barrios",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CarlosCalderon01/TaskWithMeAPI/issues"
+    "url": "https://github.com/CarlosCalderon01/Testing-Express-API/issues"
   },
-  "homepage": "https://github.com/CarlosCalderon01/TaskWithMeAPI#readme",
+  "homepage": "https://github.com/CarlosCalderon01/Testing-Express-API#readme",
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
